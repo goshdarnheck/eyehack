@@ -3,7 +3,7 @@ import { css } from "@emotion/core"
 import { scale, rhythm } from "../utils/typography"
 
 const Project = ({ title, url, children }) => {
-  const fontScale = scale(0.2)
+  const fontScale = scale(0.2);
 
   return (
     <div>

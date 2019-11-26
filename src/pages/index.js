@@ -1,6 +1,5 @@
 import React from "react"
 import { css } from "@emotion/core"
-import { scale } from "../utils/typography"
 
 import Layout from "../components/layout"
 import Project from "../components/project"
@@ -19,7 +18,12 @@ export default () => (
     >
       <li>
         <Project title="React Game of Life" url="http://life.eyehack.com/">
-          <p>Conway's Game of Life, built in React.</p>
+          <p>Conway's Game of Life, built with React.</p>
+        </Project>
+      </li>
+      <li>
+        <Project title="Any Wizard" url="https://twitter.com/anywizard">
+          <p>Twitter bot that generates ramdomized images and text. Built in Python.</p>
         </Project>
       </li>
     </ul>

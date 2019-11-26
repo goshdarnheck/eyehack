@@ -42,7 +42,15 @@ class Layout extends React.Component {
               border-bottom: 3px double var(--primary);
             `}
           >
-            <h1>// eyehack</h1>
+            <h1
+              css={css`
+                &:before {
+                  content: "// ";
+                }
+              `}
+            >
+              eyehack
+            </h1>
           </header>
           <main
             css={css`
