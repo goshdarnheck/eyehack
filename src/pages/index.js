@@ -23,7 +23,7 @@ export default () => (
       </li>
       <li>
         <Project title="Any Wizard" url="https://twitter.com/anywizard">
-          <p>Twitter bot that generates ramdomized images and text. Built in Python.</p>
+          <p>Twitter bot that generates randomized images and text. Built in Python.</p>
         </Project>
       </li>
     </ul>
