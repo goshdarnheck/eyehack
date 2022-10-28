@@ -22,6 +22,11 @@ export default () => (
         </Project>
       </li>
       <li>
+        <Project title="CS Binds" url="http://csbinds.eyehack.com/">
+          <p>Visualize key binds from CS:GO config files (and other source engine games).</p>
+        </Project>
+      </li>
+      <li>
         <Project title="Any Wizard" url="https://twitter.com/anywizard">
           <p>Twitter bot that generates randomized images and text. Built in Python.</p>
         </Project>
