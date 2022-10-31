@@ -7,8 +7,7 @@ import Project from "../components/project"
 export default () => (
   <Layout>
     <p>
-      Hey, here's a list of little web projects and stuff. Well, there is only
-      one right now. But there will be more!
+      Hey, here's a list of little web projects and stuff.
     </p>
     <ul
       css={css`
