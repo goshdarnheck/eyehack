@@ -1,0 +1,89 @@
+:root {
+  --background: #fff;
+  --text: #222;
+  --accent: #090;
+  --tertiary: #009;
+}
+
+::selection {
+  color: var(--background);
+  background: var(--accent);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--text);
+  font-family: "-apple-system",
+    "BlinkMacSystemFont",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica",
+    "Arial",
+    "sans-serif";
+  font-size: 1.6rem;
+  margin: 0 2rem;
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--tertiary);
+}
+
+a:active {
+  color: var(--text);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 60ch;
+}
+
+header {
+  border-bottom: 3px double var(--text);
+}
+
+h1 {
+  color: var(--accent);
+  text-transform: lowercase;
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+
+h1:before {
+  content: "// ";
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+footer {
+  border-top: 3px double var(--text);
+}
+
+.project-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project {
+}
